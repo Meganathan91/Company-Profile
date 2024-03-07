@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROFILE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"> <!--  carousel slide plugins  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Boostrap icon start -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+    <!--Boostrap icon end -->
+    <script src="../js/company-profile.js"></script>
+    <!--Header icon -->
+    <script src="https://kit.fontawesome.com/457a315592.js"></script>
+
+    <style>
+        .header {
+          position: fixed;
+          top: -20px;
+          z-index: 1251;
+          width: 100%;
+          background-color: #d0b18a;
+        }
+        .progress-container {
+          width: 100%;
+          height: 8px;
+          background: white;
+        }
+
+        .progress-bar {
+          height: 8px;
+          background: #24ccde;
+          width: 0%;
+        }
+        .footer {
+          position: fixed;
+          margin-top: -100px;
+          height: 150px;
+          clear:both;
+          padding-top:20px;
+        }
+        .carousel-indicators li {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          margin: 1px;
+          text-indent: -999px;
+          cursor: pointer;
+          background-color: #000\9;
+          background-color: rgba(0,0,0,0);
+          border: 4px solid #fff;
+          border-radius: 50px;
+        }
+
+        .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 15%;
+        }
+
+        .contact-icon {
+          position: absolute;
+          top: 42px;
+          right: 20px;
+        }
+
+        .link {
+            margin: 8px;
+        }
+
+        a i {
+            transition: all 0.3s linear;
+        }
+
+        a:hover i {
+            transform: scale(1.5);
+        }
+
+        .fa-facebook-f:hover {
+            color: blue;
+        }
+
+        a:not([href]):not([tabindex]) {
+          color: cornsilk;
+          text-decoration: none;
+        }
+
+        .fa-instagram:hover {
+            color: #e11d74;
+        }
+
+        .fa-twitter:hover {
+            color: #00adb5;
+        }
+
+        .fa-linkedin:hover {
+            color: #04009a;
+        }
+
+    </style>
+</head>
+<body>
+<div id="div_header_hide" class="header header-hidden">
+    <div class="d-flex">
+        <div class="flex-grow-1">
+            <h2 class="pd-t-10-f"><img src="../image/busoft-logo.png" class="ht-50 wd-200 mg-l-15-f"></h2>
+        </div>
+        <div class="contact-icon">
+            <a class="link">
+                <i class="fab fa-2x fa-linkedin"></i>
+            </a>
+            <a class="link">
+                <i class="fab fa-2x fa-twitter"></i>
+            </a>
+            <a class="link">
+                <i class="fab fa-2x fa-instagram"></i>
+            </a>
+            <a class="link">
+                <i class="fab fa-2x fa-facebook-f"></i>
+            </a>
+        </div>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+</div>
+    <div class="container mg-t-30-f">
+        <div class="row mg-t-60-f">
+            <div class="col-md-12"> <img src="../image/BUSS FAMILY.jpg" class="rounded ht-280 wd-100p" alt="..." />
+              <img src="../image/busoft_logo.jpg" alt="" class="img-tx-centered" />
+              <h1 class="mg-l-200-f mg-t-15-f"><span style="color:#f40505;">BUSOFT</span> <span style="color:#e8c129;">FAMILY</span></h1>
+            </div>
+        </div>
+        <div class="mg-t-30-f">
+            <h2>About Busoft</h2>
+            <p>We’ll Help Open Business Potentials And Bring Innovation To Your Digital Transformation</p>
+        </div>
+        <div class="row mg-t-10-f mg-b-0-f">
+            <div class="col">
+                <div class="mg-t-10-f">
+                    <p> <span style="color:#ea0f0f;">Mission</span> statement communicates the purpose of the organization. <span style="color:#c17908;">Vision</span> statement provides insight into what the company hopes to achieve or become in the future. <span style="color:#f7d105db;">Values</span> statement reflects the organization's core principles and ethics. </p>
+                </div>
+            </div>
+        </div>
+        <h2 class="mg-t-15-f">Our Services</h2>
+        <div class="row mg-b-0-f">
+            <div class="row mg-b-30-f">
+                <div class="col-md-4 offset-1 text-center zoom">
+                    <div> <i class="fab fa-medapps" style="color:yellow; font-size:60px;"></i>
+                      <h3 class="mg-b-3-f">Product Development</h3>
+                      <p>We build cloud-based web and mobile apps that you can proudly launch to your customers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-1 text-center zoom"> <img src="../image/customer_service.png" alt="" style="height: 60px;" />
+                    <h3 class="mg-b-3-f">ServiceNow Solutions</h3>
+                    <p>We work closely with businesses to understand their unique needs and develop a solution that will help them to achieve their goals.</p>
+                </div>
+            </div>
+            <div class="row mg-b-30-f">
+                <div class="col-md-4 offset-1 text-center zoom"> <i class="fa fa-mobile" style="color:#0e1c2e; font-size:60px;"></i>
+                    <h3 class="mg-b-3-f">Mobile App Development</h3>
+                    <p>We mastered the art of making trendy and secure iOS and Android apps that suit your requirements.</p>
+                </div>
+                <div class="col-md-4 offset-1 text-center zoom"> <i class="fa fa-database mg-b-10-f" style="font-size:50px; color: #808080;"></i>
+                    <h3 class="mg-b-3-f">Oracle B2B & B2C Services</h3>
+                    <p>We mastered the art of making trendy and secure iOS and Android apps that suit your requirements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Recognitions and Awards</h2>
+        <div id="myCarousel" class="carousel slide carousel-fade mg-t-30-f" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active border-4"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="mg-x-10-f border-4"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="border-4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" data-interval="2000"> <img src="../image/sports_event_4.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Sports Day</h3>
+                        <p class="tx-15-f">Sports Day Event Awards.</p>
+                    </div>
+                </div>
+                <div class="item" data-interval="2000"> <img src="../image/sports_event_2.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Busoft Family</h3>
+                        <p class="tx-15-f">we are care each and every one not only in the work, always!</p>
+                    </div>
+                </div>
+                <div class="item" data-interval="2000"> <img src="../image/sports_event_3.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Office Sports Day</h3>
+                        <p class="tx-15-f">We are not over all winner but nerainga manasu wise we are only the winner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mg-t-30-f">
+            <div class="col-md-6 order-1">
+                <img src="../image/busoft-nungambakkam.jpg" class="ht-250 wd-550 mg-y-20-f">
+            </div>
+            <div class="col-md-6 order-2">
+                <div class="vertical-center tx-15-f">
+                    <h3>Registered Office</h3>
+                    <div class="media mg-b-15-f">
+                        <p class="m-auto mg-r-15-f"><i class="bi-geo-alt media-icon"></i></p>
+                        <p class="media-body d-contents">Floor 2B No, S.P.Towers, 81, Valluvar Kottam High Rd, Ponnangipuram, Nungambakkam, Chennai, Tamil Nadu 600034</p>
+                    </div>
+                    <div class="media mg-b-15-f">
+                        <p class="media-icon"><i class="bi-phone mg-r-15-f"></i></p>
+                        <p class="media-body d-contents">044 4260 4871</p>
+                    </div>
+                    <div class="media mg-b-15-f">
+                        <p class="media-icon"><i class="bi-envelope mg-r-15-f"></i></p>
+                        <p class="media-body d-contents">info@busofttech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mg-t-30-f">
+            <div class="col-md-6 order-2">
+                <img src="../image/busoft-dlf.png" class="ht-250 wd-550 mg-y-20-f">
+            </div>
+            <div class="col-md-6 order-1">
+                <div class="vertical-center tx-15-f">
+                    <h3>Corporate Office</h3>
+                    <div class="media mg-b-15-f">
+                        <p class="m-auto mg-r-15-f"><i class="bi-geo-alt media-icon"></i></p>
+                        <p class="media-body d-contents">BUSoftTech, DLF Cybercity, Block 9A, 6th Floor 124, Mount Poonamallee Rd, Manapakkam, Chennai, Tamil Nadu 600089</p>
+                    </div>
+                    <div class="media mg-b-15-f">
+                        <p class="media-icon"><i class="bi-phone mg-r-15-f"></i></p>
+                        <p class="media-body d-contents">044 4260 4871</p>
+                    </div>
+                    <div class="media mg-b-15-f">
+                        <p class="media-icon"><i class="bi-envelope mg-r-15-f"></i></p>
+                        <p class="media-body d-contents">info@busofttech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mg-t-30-f">
+            <div class="col-md-6 order-1">
+                <img src="../image/busoft-usa.jpg" class="ht-250 wd-550 mg-y-20-f">
+            </div>
+            <div class="col-md-6 order-2">
+                <div class="vertical-center tx-15-f">
+                    <h3>USA Office</h3>
+                    <div class="media mg-b-15-f">
+                        <p class="m-auto mg-r-15-f"><i class="bi-geo-alt media-icon"></i></p>
+                        <p class="media-body d-contents">19925. Stevens Creek Blvd, Cupertino, California 95014, USA</p>
+                    </div>
+                    <div class="media mg-b-15-f">
+                        <p class="media-icon"><i class="bi-envelope mg-r-15-f"></i></p>
+                        <p class="media-body d-contents">info@busofttech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mg-y-80-f"></div>
+    <div class="float-right mg-r-12-f mg-t-10-f" id="div_back_to_top" style="position: fixed; right: 0; top: 488px; display:none;">
+        <a class="btn btn-info btn-lg back-to-top" id="back_to_top" href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    </body>
+    <footer class="bg-primary text-center text-white fixed-bottom">
+      <div class="text-center p-3" style="background-color: #d0b18a;"> Copyright © 2022. All Rights Reserved <span class="text-white">BUSoft Tech </span> </div>
+    </footer>
+</html>
